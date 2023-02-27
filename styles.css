@@ -1,0 +1,132 @@
+/* CSS HEX
+--antique-ruby: #7c252bff; | rgba(124, 37, 43, .9);
+--ebony: #64715bff;
+--mint-cream: #f1f7f0ff;
+--davys-grey: #504d48ff;
+*/
+
+
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Spectral', serif;
+    font-family: 'Spectral SC', serif;
+
+}
+
+h1 {
+    font-family: 'Spectral SC', serif;
+    font-size: 56px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Spectral', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Spectral SC', serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: #7C252BFF;
+}
+
+h4 {
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.02rem;
+    /*text-transform: uppercase;*/
+    color: #7c252bff;
+}
+
+p {
+    font-family: 'Spectral', serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02rem;
+    color: #504d48ff;
+}
+
+.p-italic {
+    font-style: italic;
+}
+
+img {
+    width: 160px;
+    margin-top: 24px;
+}
+
+#hero {
+    background-image: url("images/hero.jpg");
+    background-size:cover;
+    padding: 240px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-title {
+    background: rgba(124, 37, 43, .9);
+    padding: 0px 24px;
+    border-radius: 4px;
+    margin: 5px 0 10px 0;
+}
+
+#hero-subtitle {
+    background: rgba(100, 113, 91, .9);
+    padding: 4px 16px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+
+#activities {
+    margin: 0;
+    padding: 64px 0;
+    background-color: #f1f7f0ff;
+}
+
+.topic {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin: 0 24px;
+}
+
+#guide {
+    margin: 64px 0;
+}
+
+
+#guide-card {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#f1f7f0ff;
+    gap: 24px;
+    padding: 0 24px 18px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+#card-avatar {
+    width: auto;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 20px;
+}
